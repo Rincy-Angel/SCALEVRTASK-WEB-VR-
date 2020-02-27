@@ -1,0 +1,56 @@
+<html>
+<head>
+<title></title>
+  <style>
+    input[type=file]{
+  
+  padding: 12px;
+  border: 1px solid #ffcc89;
+  border-radius: 4px;
+  float:center;
+        align-content: center;
+  
+}
+    body{
+          background:url(uploads/bg.jpg);
+        
+         
+  text-align: center;
+      }
+      h1{
+         text-align: center;
+      }
+/* Style the label to display next to the inputs */
+
+
+/* Style the submit button */
+input[type=submit] {
+  background-color:lightblue;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-content:center;
+    text-decoration-color: black;
+    
+}
+
+
+
+    </style>  
+    
+</head>
+<body>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h1>SCALE VR TASK</h1>
+    <hr>
+    <h2> Select an image to upload</h2><br>
+    <input type="file" name="file" style="background-color: lightsalmon; text-decoration-color: aliceblue;"><br><br>
+    <input type="submit" name="submit" value="Upload" >
+    
+    
+    
+</form>
+</body>
+</html>
